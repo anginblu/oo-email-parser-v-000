@@ -12,7 +12,9 @@ class EmailParser
 
   def parse
     list1 = emails.split(",")
-    list2 = list1.split(" ")
+    list2 = []
+    list1.each do |i|
+      list2 << i.split (" ")
     list3 = list2.uniq
   end
 
