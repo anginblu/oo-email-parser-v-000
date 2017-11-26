@@ -16,7 +16,7 @@ class EmailParser
     list1.each do |i|
       list2 << i.split(" ")
     end
-    list3 = list2.uniq
+    list3 = list2.flatten.uniq
   end
 
 
