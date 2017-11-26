@@ -13,7 +13,7 @@ class EmailParser
   def parse
     list1 = emails.split(",")
     list2 = list1.split(" ")
-    list2
+    list3 = list2.uniq
   end
 
 
