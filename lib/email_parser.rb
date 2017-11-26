@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    list = emails.split(",")
+    list1 = emails.split(",")
     list2 = list1.split(" ")
     list2
   end
